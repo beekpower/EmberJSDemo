@@ -1,0 +1,1 @@
+Emberjsdemo.ApplicationAdapter = DS.FixtureAdapter;
