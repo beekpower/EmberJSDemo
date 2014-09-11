@@ -113,13 +113,13 @@
 
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav side-nav">
-        <li class="active">
+        <li {{bind-attr class="Emberjsdemo.isIndex:active" }}>
           {{#link-to 'index'}}<i class="fa fa-fw fa-dashboard"></i> Dashboard{{/link-to}}
         </li>
         <li>
           <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
         </li>
-        <li>
+        <li {{bind-attr class="Emberjsdemo.isTodo:active" }}>
           {{#link-to 'todo'}}<i class="fa fa-fw fa-edit"></i> Todo List{{/link-to}}
         </li>
       </ul>

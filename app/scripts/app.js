@@ -1,4 +1,8 @@
-var Emberjsdemo = window.Emberjsdemo = Ember.Application.create();
+var Emberjsdemo = window.Emberjsdemo = Ember.Application.create({
+  currentPath: '',
+  isIndex: '',
+  isTodo: ''
+});
 
 /* Order and include as you please. */
 require('scripts/controllers/*');
