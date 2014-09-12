@@ -1,7 +1,8 @@
 var Emberjsdemo = window.Emberjsdemo = Ember.Application.create({
   currentPath: '',
   isIndex: '',
-  isTodo: ''
+  isTodo: '',
+  isCharts: ''
 });
 
 /* Order and include as you please. */

@@ -116,8 +116,8 @@
         <li {{bind-attr class="Emberjsdemo.isIndex:active" }}>
           {{#link-to 'index'}}<i class="fa fa-fw fa-dashboard"></i> Weather Overview{{/link-to}}
         </li>
-        <li>
-          <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+        <li {{bind-attr class="Emberjsdemo.isCharts:active" }}>
+          {{#link-to 'charts'}}<i class="fa fa-fw fa-bar-chart-o"></i> Weather Charts{{/link-to}}
         </li>
         <li {{bind-attr class="Emberjsdemo.isTodo:active" }}>
           {{#link-to 'todo'}}<i class="fa fa-fw fa-edit"></i> Todo List{{/link-to}}
