@@ -30,6 +30,10 @@
     {{#each}}
     <p class="input-group" style="padding:5px 10px; cursor: move;">
       {{input type="text" class="form-control" value=title}}
+       <span class="input-group-addon">
+         Completed?
+        <input {{action "completedAction" this.title}} value=completed type="checkbox">
+      </span>
       <span class="input-group-btn">
         <button {{action "removeTodo" this}} class="btn btn-danger" aria-label="Remove">X</button>
       </span>
